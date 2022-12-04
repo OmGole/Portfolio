@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Om Gole | Freelance Front-end Developer</title>
+  <link rel="shortcut icon" href="img/og.png" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="./mobile.css">
+  <script src="https://kit.fontawesome.com/62f7d2b32d.js" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+</head>
+
+<body> 
+  <header id="header">
+    <div class="container-parent">
+    <div class="container">
+      <nav>
+        <h3><a href="#" class="logo">OG</a></h3>
+        <ul id="navbar">
+          <li><a class="current link" href="#header">Home</a></li>
+          <li><a class="link" href="#portfolio">Work</a></li>
+          <li><a class="link" href="#services">Skills</a></li>
+          <li><a class="link" href="#about">About</a></li>
+          <li><a class="link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-icon">
+          
+          <label for="check">
+            <i class="fas fa-bars fa-sm"></i>
+          </label>
+          </div>
+      </nav>     
+      </div>
+  </div>
+    <div class="container">
+      <section id="showcase">
+        <div id="showcase-content">
+          <h2>Hi,I'm Om,</h2>
+          <h4 class="bold">a Freelance Front-End Developer</h4>
+          <a href="#portfolio" class="btn btn-primary btn-work">My Work</a>
+          <a href="" class="btn btn-secondary btn-contact">Contact Me</a>
+        </div>
+      </section>
+    </div>
+  </header>
+  <div class="nav-mobile hidden">
+            <ul id="navbar" class="navbar-mobile-links">
+          <li><a class="current link-mobile" href="#header">Home</a></li>
+          <li><a class="link-mobile" href="#portfolio">Work</a></li>
+          <li><a class="link-mobile" href="#services">Skills</a></li>
+          <li><a class="link-mobile" href="#about">About</a></li>
+          <li><a class="link-mobile" href="#contact">Contact</a></li>
+        </ul>
+  </div>
+  
+    <section id="portfolio" class="padding-section">
+    <div class="container">
+      <h3 class="title">My work</h3>
+      <span class="divider"></span>
+      <div class="flex">
+        <div class="work">
+          <a href="https://wonderful-villani-5d7efd.netlify.app/" target=_blank><img src="./img/fylo.png" alt="" /> </a>
+          <h4>Fylo</h4>
+          <a href="https://wonderful-villani-5d7efd.netlify.app/" class="btn-primary" target="_blank">Visit</a>
+        </div>
+        <div class="work">
+          <a href="https://brave-carson-a38b04.netlify.app/" target="_blank"><img src="./img/calc.png" alt="" /> </a>
+          <h4>Calculator</h4>
+          <a href="https://brave-carson-a38b04.netlify.app/" class="btn-primary" target="_blank">Visit</a>
+        </div>
+        <div class="work">
+          <a href="https://nervous-pike-d621c8.netlify.app/" target="_blank"><img src="./img/where in the world - portfolio resized.png" alt="" /> </a>
+          <h4>Where in the World</h4>
+          <a href="https://nervous-pike-d621c8.netlify.app/" class="btn-primary" target="_blank">Visit</a>
+        </div>
+      </div>
+  </section>
+  <section id="services" class="padding-section">
+    <div class="container">
+      <h3 class="title">My Skills</h3>
+      <span class="divider"></span>
+      <p>As a Front-end Developer my expertise lies in HTML, CSS and Javascript.</p>
+      <div class="icon-container">
+        <i class="fab fa-html5 fa-4x"></i>
+        <i class="fab fa-css3-alt fa-4x"></i>
+        <i class="fab fa-js fa-4x"></i>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="padding-section">
+    <div class="container flex">
+      <div class="about-img">
+        <img src="./img/om photo.jpg" alt="">
+      </div>
+      <div class="about-content">
+        <h3 class="title">About Me</h3>
+        <span class="divider"></span>
+        <p>Hey, I am Om Gole a sophomore at university of mumbai, pursuing an undergrad degree in Computer Science.
+
+          Inclined towards frontend development & learning new technologies to build.
+          
+          As a young developer, my passion lies in building websites and web application that delight people .
+
+          What makes me stand out is my dedication, knowledge and  sincere liking towards the work I do. I also enjoy playing soccer and making new friends. Thanks for stopping by.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="padding-section">
+    <div class="container">
+      <h3 class="title">Contact Me</h3>
+      <span class="divider"></span>
+      <div class="form-wrapper">
+        <form method="POST" data-netlify="true">
+          <div class="form-group">
+            <input type="text" id="full-name" name="full-name" placeholder="Your Full Name">
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email">
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" cols="30" rows="7" placeholder="Message"></textarea>
+          </div>
+          <div data-netlify-recaptcha="true"></div>
+          <button class="btn-primary" id="submit">Submit</button>
+          <p class="error hidden"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer id="footer" >
+    <div class="container padding-section">
+
+      <div class="flex">
+        <div class="box">
+          <i class="far fa-envelope fa-3x"></i>
+          <h4>Email :</h4>
+          <p>omgole80@gmail.com</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-mobile-alt fa-3x"></i>
+          <h4>Mobile No :</h4>
+          <p>9136886650</p>
+        </div>
+        <div class="box">
+          <i class="far fa-user-circle fa-3x"></i>
+          <h4>Socials :</h4>
+          <a href="https://www.instagram.com/om_gole/" target="_blank"> <i class="fab fa-instagram social-icon"></i></a>
+          <a href="https://www.linkedin.com/in/om-gole-36407521a" target="_blank"> <i class="fab fa-linkedin-in social-icon"></i></a>
+          <p></p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <div id="footer-end">
+    <p>© 2021 Copyright Om Gole. All Rights Reserved.</p>
+  </div>
+  </div>
+</body>
+
+</html>

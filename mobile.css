@@ -1,0 +1,207 @@
+#showcase-content {
+  margin-top: -120px;
+}
+
+.bold {
+  font-size: 2.25rem !important;
+}
+
+#portfolio .flex {
+  flex-direction: column;
+}
+
+.work {
+  margin-bottom: 40px;
+}
+
+#services .box {
+  display: flex;
+}
+
+#services .flex {
+  flex-direction: column;
+}
+
+#services .box {
+  text-align: left;
+  margin-bottom: 50px;
+  padding: 0rem 2.5rem 0rem 4rem;
+}
+
+#services .box i {
+  margin-right: 20px;
+}
+
+#services .box h4 {
+  margin-bottom: 5px;
+}
+
+#services .box i {
+  align-self: center;
+}
+
+#services .box:first-child {
+  margin-top: 20px;
+}
+
+.box p {
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+}
+
+#footer .flex {
+  padding-left: 10px;
+}
+
+#footer .box {
+  flex: 1;
+}
+
+#about-img img {
+  width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 100%;
+    /* background: url("./img/nordwood-themes-_sg8nXmpWDM-unsplash.jpg"); */
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("./img/nordwood-themes-_sg8nXmpWDM-unsplash.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  #portfolio {
+    scroll-margin: 60px;
+  }
+  #services {
+    scroll-margin: 60px;
+  }
+  #contact {
+    scroll-margin: 60px;
+  }
+  #about {
+    scroll-margin: 60px;
+  }
+
+  #portfolio h3 {
+    font-size: 3rem;
+  }
+  #services h3 {
+    font-size: 3rem;
+  }
+  #contact h3 {
+    font-size: 3rem;
+  }
+  #about h3 {
+    font-size: 3rem;
+  }
+
+  #portfolio .divider {
+    width: 80px;
+  }
+
+  .divider {
+    width: 100px;
+  }
+
+  #showcase-content h2 {
+    font-size: 4rem;
+  }
+
+  .work h4 {
+    font-size: 2.25rem;
+  }
+
+  #footer h4 {
+    font-size: 1.75rem;
+  }
+
+  #services .box {
+    display: block;
+  }
+
+  #services .flex {
+    flex-direction: column;
+  }
+
+  #services .box {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0rem 4rem;
+  }
+
+  #services .box h4 {
+    margin-bottom: 10px;
+  }
+
+  #services .box i {
+    align-self: center;
+  }
+
+  #services .box:first-child {
+    margin-top: 20px;
+  }
+
+  #footer .flex {
+    flex-direction: column;
+  }
+
+  #footer .box {
+    margin-bottom: 30px;
+  }
+
+  #footer .box:nth-child(3) {
+    margin-bottom: 0;
+  }
+
+  nav #navbar {
+    display: none;
+  }
+
+  .nav-icon {
+    display: flex;
+    padding: 2rem;
+    align-self: center;
+  }
+  .nav-icon label i {
+    font-size: 30px;
+  }
+
+  .nav-icon input {
+    width: 20px;
+    align-self: center;
+  }
+
+  .current {
+    background: #444;
+  }
+  #navbar a:hover {
+    background: #444;
+  }
+
+  .padding-section {
+    padding: 75px 0px;
+  }
+
+  .logo {
+    font-size: 2.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 2rem;
+  }
+
+  nav {
+    height: 60px;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about-img {
+    padding: 2.75rem;
+  }
+}
